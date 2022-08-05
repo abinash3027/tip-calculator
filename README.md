@@ -1,2 +1,1 @@
-# tip-calculator
- A simple tip calculator app.
+# Tip Calculator💲
