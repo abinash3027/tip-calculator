@@ -23,8 +23,12 @@ body {
   margin: 100px auto;
 }
 
+.heading {
+  text-align: center;
+}
+
 #topContainer {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .container {
@@ -101,4 +105,29 @@ body {
 
 .total {
   font-size: 2rem;
+}
+
+.spacer {
+  height: 150px;
+}
+.resetContainer {
+  display: flex;
+  margin: auto;
+  background: #8990ec;
+  justify-content: center;
+  font-size: 1.8;
+  place-items: center;
+  width: 6rem;
+  height: 2rem;
+  border-radius: 15rem;
+}
+
+#inputReset {
+  background: none;
+  border: none;
+}
+
+.resetText {
+  color: #353959 !important;
+  font-size: 1.2rem;
 }
