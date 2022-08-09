@@ -14,7 +14,7 @@ A simple and user friendly tip calculator app to make your task easier.
 
 ### Demo page:
 
-###[Click to visit](https://tipcalculator.abinash.io/)
+[Click to visit](https://tipcalculator.abinash.io/)
 
 ### Setup: ⚙️
 
