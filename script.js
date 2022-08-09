@@ -5,7 +5,7 @@ const perPersonTotalDiv = document.getElementById("perPersonTotal");
 
 let numberOfPeople = Number(numberOfPeopleDiv.innerText);
 
-const calculateBill = () => {
+const calculateTotal = () => {
   const bill = Number(billInput.value);
   const tipPercent = Number(tipInput.value) / 100;
   const tipAmount = bill * tipPercent;
@@ -17,8 +17,7 @@ const calculateBill = () => {
 const increasePeople = () => {
   numberOfPeople += 1;
   numberOfPeopleDiv.innerText = numberOfPeople;
-
-  calculateBill();
+  calculateTotal();
 };
 
 const decreasePeople = () => {
@@ -30,5 +29,12 @@ const decreasePeople = () => {
 
   numberOfPeopleDiv.innerText = numberOfPeople;
 
-  calculateBill();
+  calculateTotal();
 };
+
+function inputReset() {
+  billInput.value = "";
+  tipInput.value = "";
+  numberOfPeopleDiv.innerText = "1";
+  perPersonTotalDiv.innerText = "$0.00";
+}
